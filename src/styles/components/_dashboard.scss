@@ -1,0 +1,71 @@
+.db-body {
+  margin: $s-size;
+}
+
+.db-con {
+  display: flex;
+}
+
+
+//section slideshow.scss
+.db-con-slideshow {
+  margin: 0;
+  padding: 0;
+  max-width: 60%;
+}
+
+//section profit
+.db-profit {
+  background-color: #1a1a1a;
+  color: $light;
+  margin: $s-size;
+  padding: $s-size;
+}
+
+.db-profit__row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 12%;
+  margin-right: auto;
+  padding: $s-size;
+}
+
+.icon {
+  display: flex;
+  flex-grow: 1;
+  text-align: left;
+  align-items: center;
+  width: 33%;
+}
+
+.icon > img {
+  width: 100px;
+  height: 70px;
+  padding: 0 $s-size;
+}
+
+//section db-vidinfo
+
+
+.db-vid {
+  display: inline-block;
+  margin: $m-size;
+  padding: $m-size;
+  background: #F9F7F3!important;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+//section address
+.address {
+  display: flex;
+}
+
+.add-con {
+  flex-grow: 1;
+  color: $white;
+  padding: $m-size;
+}
+
+.add-con > div {
+  margin: $s-size;
+}

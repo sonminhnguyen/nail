@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $dark-grey;
+  background-color: lighten($color: $light, $amount: 10);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.button {
+	box-shadow:inset 1px 33px 23px 3px #fbafe3;
+	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+	background-color:#ff5bb0;
+	border-radius:21px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:13px 52px;
+	text-decoration:none;
+	text-shadow:0px 0px 16px #c70067;
+}
+
+.button:hover {
+	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+	background-color:#ef027d;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.is-active {
+  font-weight: bold;
+}

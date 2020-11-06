@@ -1,0 +1,5 @@
+.header {
+  background-color: lighten($color: $pink, $amount: 40);
+  border-bottom: $light solid 1px;
+  box-shadow: 0 .1rem 0.5rem lighten($color: $pink, $amount: 20);
+}
