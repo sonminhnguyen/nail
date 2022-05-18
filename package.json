@@ -36,6 +36,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "live-server public/",
     "dev-server": "webpack-dev-server",

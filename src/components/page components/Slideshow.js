@@ -1,8 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel'
-
 
 const Slideshow = () => (
   <Carousel>
@@ -42,8 +39,4 @@ const Slideshow = () => (
   </Carousel>
 );
 
-
-//render(<ControlledCarousel />);
-
 export default Slideshow;
-// ReactDOM.render(<Slideshow />, document.getElementById('app'));

@@ -6,6 +6,7 @@ import DashboardPage from '../components/DashboardPage';
 import Contact from '../components/Contact';
 import Help from '../components/Help';
 import NotFoundPage from '../components/NotFoundPage';
+import Login from "../components/Login";
 
 const AppRouter = () => (
   <BrowserRouter>
@@ -15,6 +16,7 @@ const AppRouter = () => (
         <Route path="/" component={DashboardPage} exact={true}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/help" component={Help}/>
+        <Route path="/login" component={Login}/>
         <Route component={NotFoundPage}/>
       </Switch>
     </div>
